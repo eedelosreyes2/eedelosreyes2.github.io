@@ -28,7 +28,6 @@ twitter_username:
 github_username:  eedelosreyes2
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
