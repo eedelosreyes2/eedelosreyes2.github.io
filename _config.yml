@@ -22,7 +22,7 @@ title: Elijah Delos Reyes | Software Engineer
 email: delosreyes.elijah@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Second iteration of my personal website and portfolio.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "https://eedelosreyes2.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  eedelosreyes2
