@@ -1,7 +1,10 @@
+<!DOCTYPE html>
 <html>
-<head>
-<!-- site css -->
-<link rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
-</head>
-...
+	<head>
+		{% include head.html %}
+	</head>
+    <body>
+		{{ content }}
+		{% include scripts.html %}
+    </body>
 </html>
