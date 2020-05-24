@@ -5,6 +5,23 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
-.content {
-  font-size: $custom-font-size;
+#abouth1 {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: $custom-aboutHeader-size
+}
+.down-arrow {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#grey {
+  color: rgba(0, 0, 0, 0.75);
+}
+h1 {
+  font-size: $custom-h1-size;
+}
+h2 {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: $custom-h2-size;
+  line-height: 2;
 }
