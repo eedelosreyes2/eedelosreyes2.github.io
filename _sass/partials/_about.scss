@@ -1,0 +1,30 @@
+.about {
+    height: 100%;
+    padding-top: 10vh;
+    
+    &__avatar {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 335px;
+        width: 335px;
+    }
+    &__hello {
+        color: rgba(0, 0, 0, 0.75);
+        font-size: $custom-aboutHeader-size;
+        padding-top: 5vh;
+    }
+}
+.arrow-down-container {
+    height: 25vh;
+    bottom: 0px;
+    
+
+    &__arrow-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10vh;
+    }
+}
