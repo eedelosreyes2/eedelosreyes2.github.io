@@ -1,0 +1,10 @@
+.education {
+    height: 100%;
+    padding-bottom: 10vh;
+    padding-top: 15vh;
+
+    &__go-dons {
+        display: flex;
+        justify-content: space-between;
+    }
+}

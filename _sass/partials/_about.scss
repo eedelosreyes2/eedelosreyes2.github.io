@@ -1,6 +1,6 @@
 .about {
     height: 100%;
-    padding-top: 10vh;
+    padding-top: 15vh;
     
     &__avatar {
         border-radius: 50%;
@@ -10,21 +10,27 @@
         height: 335px;
         width: 335px;
     }
+
+    &__hello-container {
+        padding-top: 4svh;
+    }
+
     &__hello {
         color: rgba(0, 0, 0, 0.75);
         font-size: $custom-aboutHeader-size;
-        padding-top: 5vh;
+    }
+    
+    &__h2 {
+        line-height: 2;
     }
 }
 .arrow-down-container {
-    height: 25vh;
-    bottom: 0px;
-    
+    height: 22vh;
 
     &__arrow-down {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 10vh;
+        padding-top: 12vh;
     }
 }
