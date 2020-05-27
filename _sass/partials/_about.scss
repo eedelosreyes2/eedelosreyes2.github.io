@@ -1,7 +1,7 @@
 .about {
     height: 100%;
     padding-top: 15vh;
-    
+
     &__avatar {
         border-radius: 50%;
         display: block;
@@ -10,16 +10,13 @@
         height: 335px;
         width: 335px;
     }
-
     &__hello-container {
         padding-top: 1.75vh;
     }
-
     &__hello {
         color: rgba(0, 0, 0, 0.75);
         font-size: $custom-aboutHeader-size;
-    }
-    
+    }    
     &__h2 {
         line-height: 2;
     }

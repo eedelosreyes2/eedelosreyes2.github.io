@@ -17,6 +17,9 @@ h1 {
 h2 {
   font-size: $custom-h2-size;
 }
+a:link, a:visited, a:hover, a:active {
+  color: black;
+}
 
 hr {
   background-color: rgba(0, 0, 0, 0.75);
