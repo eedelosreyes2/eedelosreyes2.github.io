@@ -1,33 +1,41 @@
 .about {
-    height: 100%;
-    padding-top: 7.5vw;
+    height: 90vh;
 
+    &__middle-wrapper {
+        display: flex;
+        height: 80vh;
+    }
+    &__avatar-wrapper {
+        padding-left: 12vw;
+        padding-right: 5vw;
+        padding-top: 10vh;
+    }
     &__avatar {
         border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         height: 26vw;
         width: 26vw;
     }
-    &__hello-container {
-        padding-top: 0.75vw;
+    &__intro-wrapper {
+        height: 100%;
+        margin: auto;
+        padding-right: 10vw;
+        padding-top: 12.6vh;
+        width: 75vw;
     }
-    // &__hello {
-    //     color: rgba(0, 0, 0, 0.75);
-    //     font-size: 2.5vw;
-    // }    
-    &__h2 {
-        line-height: 2.75vw;
+    &__intro-text-big {
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 2.5vw;
     }
-}
-.arrow-down-container {
-    height: 11vw;
-
-    &__arrow-down {
+    &__intro-text {
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+    }
+    &__arrow {
+        content:url("https://img.icons8.com/ios/35/000000/expand-arrow--v1.png");
         display: block;
+        height: 3vw;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 7.5vw;
     }
 }

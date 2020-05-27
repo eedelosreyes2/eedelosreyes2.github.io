@@ -1,10 +1,13 @@
 title: Elijah Delos Reyes | Software Engineer
+email: delosreyes.elijah@gmail.com
 description: Second iteration of my personal website and portfolio.
 url: "https://eedelosreyes2.github.io/"
 resume: "https://eedelosreyes2.github.io/resume.pdf"
-email: delosreyes.elijah@gmail.com
 github_username: eedelosreyes2
-linkedin: "https://www.linkedin.com/in/elijah-delos-reyes/"
+
+screen-size:
+  - tablet: 768px 
+  - phone: 600px
 
 sass:
     load_paths:
