@@ -1,0 +1,21 @@
+.resume {
+    height: 100%;
+    padding-bottom: 18vh;
+
+    &__experience {
+        padding-bottom: 8vh;
+    }
+    &__title {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__job {
+        padding-bottom: 10vh;
+    }
+    &__skills {
+        padding-bottom: 18vh;
+    }
+    &__pdf {
+        text-align: center;
+    }
+}

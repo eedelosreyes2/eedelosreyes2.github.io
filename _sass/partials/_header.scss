@@ -1,0 +1,18 @@
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    top: 0;
+    z-index: 99;
+
+    &__elijah {
+        padding-left: 10vh;
+    }
+    &__menu {
+        padding-right: 10vh;
+    }
+  }

@@ -1,1 +1,27 @@
-theme: jekyll-theme-minimal
+title: Elijah Delos Reyes | Software Engineer
+email: delosreyes.elijah@gmail.com
+description: Second iteration of my personal website and portfolio.
+url: "https://eedelosreyes2.github.io/"
+resume: "https://eedelosreyes2.github.io/resume.pdf"
+github_username: eedelosreyes2
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+    style: compressed
+
+plugins:
+  - jekyll-toc
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - vendor
+  - deploy.sh
+  - node_modules
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - yarn.lock
+  - packages.json
