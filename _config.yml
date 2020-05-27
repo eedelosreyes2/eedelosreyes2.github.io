@@ -4,6 +4,7 @@ description: Second iteration of my personal website and portfolio.
 url: "https://eedelosreyes2.github.io/"
 resume: "https://eedelosreyes2.github.io/resume.pdf"
 github_username: eedelosreyes2
+linkedin: "https://www.linkedin.com/in/elijah-delos-reyes/"
 
 sass:
     load_paths:
