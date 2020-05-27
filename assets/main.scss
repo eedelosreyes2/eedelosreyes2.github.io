@@ -7,167 +7,165 @@
 
 #grey {
   color: rgba(0, 0, 0, 0.75);
-  line-height: 35px;
+  line-height: 2.5vw;
 }
 
+a:link, a:visited, a:hover, a:active {
+  color: black;
+}
 h1 {
   font-size: $custom-h1-size;
+  line-height: 1.5vw;
 }
 
 h2 {
   font-size: $custom-h2-size;
 }
-a:link, a:visited, a:hover, a:active {
-  color: black;
-}
-
 hr {
   background-color: rgba(0, 0, 0, 0.75);
-  margin-top: 0px;
+  margin-bottom: 1vw;
+  margin-top: 0vw;
 }
-
+.hr-l {
+  margin-bottom: 4vw;
+}
 .center-col {
   margin-left: auto;
   margin-right: auto;
-  width: 65vw;
+  width: 60vw;
+  @media only screen and (max-width: 768px) {
+    width: 80vw;
+  }
 }
-
 .concept {
   background-color: white;
-  border: 1.5px solid #60B8F8;
-  border-radius: 15px;
+  border: 0.15vw solid #60B8F8;
+  border-radius: 1.15vw;
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
-  margin-right: 1px;
-  margin-top: 12px;
-  padding-left: 33px;
-  padding-right: 33px;
+  height: 4.2vw;
+  margin-top: 1.05vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   vertical-align: middle;  
 
   &__text {    
     display: inline-block;
-    margin-top: 13px;
+    margin-top: 1vw;
   }
 }
 
 .language {
   background-color: white;
-  border: 1.5px solid #9851EB;;
-  border-radius: 15px;
+  border: 0.15vw solid #9851EB;;
+  border-radius: 1.15vw;
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
-  margin-right: 1px;
-  margin-top: 12px;
-  padding-left: 33px;
-  padding-right: 33px;
+  height: 4.25vw;
+  margin-top: 1.05vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   vertical-align: middle;  
 
-  &__text {
+  &__text {    
     display: inline-block;
-    margin-top: 13px;
+    margin-top: 1vw;
   }
 }
 
 .framework {
   background-color: white;
-  border: 1.5px solid #000AFF;
-  border-radius: 15px;
+  border: 0.15vw solid #000AFF;
+  border-radius: 1.15vw;
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
-  margin-right: 1px;
-  margin-top: 12px;
-  padding-left: 33px;
-  padding-right: 33px;
+  height: 4.25vw;
+  margin-top: 1.05vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   vertical-align: middle;  
 
-  &__text {
+  &__text {    
     display: inline-block;
-    margin-top: 13px;
+    margin-top: 1vw;
   }
 }
 
 .tool {
   background-color: white;
-  border: 1.5px solid #41D3CD;
-  border-radius: 15px;
+  border: 0.15vw solid #41D3CD;
+  border-radius: 1.15vw;
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
-  margin-right: 1px;
-  margin-top: 12px;
-  padding-left: 33px;
-  padding-right: 33px;
+  height: 4.25vw;
+  margin-top: 1.05vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   vertical-align: middle;  
 
-  &__text {
+  &__text {    
     display: inline-block;
-    margin-top: 13px;
+    margin-top: 1vw;
   }
 }
 
 .soft {
   background-color: white;
-  border: 1.5px solid #75EB51;
-  border-radius: 15px;
+  border: 0.15vw solid #75EB51;
+  border-radius: 1.15vw;
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
-  margin-right: 1px;
-  margin-top: 12px;
-  padding-left: 33px;
-  padding-right: 33px;
+  height: 4.25vw;
+  margin-top: 1.05vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   vertical-align: middle;  
 
-  &__text {
+  &__text {    
     display: inline-block;
-    margin-top: 13px;
+    margin-top: 1vw;
   }
 }
 
 .design {
   background-color: white;
-  border: 1.5px solid #FF05F5;
-  border-radius: 15px;
+  border: 0.15vw solid #FF05F5;
+  border-radius: 1.15vw;
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
-  margin-right: 1px;
-  margin-top: 12px;
-  padding-left: 33px;
-  padding-right: 33px;
+  height: 4.25vw;
+  margin-top: 1.05vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   vertical-align: middle;  
 
-  &__text {
+  &__text {    
     display: inline-block;
-    margin-top: 13px;
+    margin-top: 1vw;
   }
 }
 
 .interest {
   background-color: white;
-  border: 1.5px solid #FFCE00;
-  border-radius: 15px;
+  border: 0.15vw solid #FFCE00;
+  border-radius: 1.15vw;
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
-  margin-right: 1px;
-  margin-top: 12px;
-  padding-left: 33px;
-  padding-right: 33px;
+  height: 4.25vw;
+  margin-top: 1.05vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   vertical-align: middle;  
 
-  &__text {
+  &__text {    
     display: inline-block;
-    margin-top: 13px;
+    margin-top: 1vw;
   }
 }
