@@ -16,4 +16,14 @@
     &__menu {
         padding-right: 10vh;
     }
+
+    /* Responsive resize for tablets */
+    @media only screen and (max-width: $tablet) {
+        &__elijah {
+            padding-left: 5vh;
+        }
+        &__menu {
+            padding-right: 5vh;
+        }
+    }
   }
