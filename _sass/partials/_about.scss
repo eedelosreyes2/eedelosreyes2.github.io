@@ -1,59 +1,59 @@
 .about {
-    box-sizing: border-box;
     height: 90vh;
-    position: relative;
-    background-color: rosybrown;
+    height: 672px;
+    width: 100%;
+    width: 1280px;
 
     &__middle-wrapper {
         display: flex;
-        height: 80vh;
+        height: 600px;
     }
     &__avatar-wrapper {
-        padding-left: 12vw;
-        padding-right: 5vw;
-        padding-top: 10vh;
+        padding-left: 125px;
+        padding-right: 50px;
+        padding-top: 115px;
     }
     &__avatar {
         border-radius: 50%;
-        height: 26vw;
-        width: 26vw;
+        height: 336px;
+        width: 336px;
     }
     &__intro-wrapper {
         height: 100%;
         margin: auto;
-        padding-right: 10vw;
-        padding-top: 15vh;
-        width: 75vw;
+        padding-right: 100px;
+        padding-top: 170px;
+        width: 750px;
     }
     &__intro-text-big {
         color: rgba(0, 0, 0, 0.75);
-        font-size: 2.5vw;
+        font-size: 32px;
     }
     &__intro-text {
         color: rgba(0, 0, 0, 0.75);
-        font-size: 1.5vw;
-        line-height: 2.2vw;
+        font-size: 20px;
+        line-height: 25px;
     }
     &__arrow {
-        content:url("https://img.icons8.com/ios/35/000000/expand-arrow--v1.png");
         display: block;
-        height: 3vw;
+        height: 15px;
         margin-left: auto;
         margin-right: auto;
+        width: 30px;
     }
 
     /* Responsive resize for tablets */
     @media only screen and (max-width: $tablet) {
-        background-color: rebeccapurple;
+        width: unset;
 
         &__middle-wrapper {
             display: block;
-            height: 80vh;
+            height: 530px;
         }
         &__avatar-wrapper {
             padding-left: unset;
             padding-right: unset;
-            padding-top: 5vh;
+            padding-top: 10px;
         }
         &__avatar {
             border-radius: 50%;
@@ -65,9 +65,9 @@
         &__intro-wrapper {
             height: unset;
             padding-right: unset;
-            padding-top: 5vh;
+            padding-top: 30px;
             text-align: center;
-            width: 65vw;
+            width: 90vw
         }
         &__intro-text-big {
             color: rgba(0, 0, 0, 0.75);
@@ -79,13 +79,9 @@
             line-height: 25px;
         }
         &__arrow {
-            content:url("https://img.icons8.com/ios/35/000000/expand-arrow--v1.png");
             display: block;
-            height: 3vw;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 5vh;
         }
-        
       }
 }
