@@ -1,5 +1,8 @@
 .about {
+    box-sizing: border-box;
     height: 90vh;
+    position: relative;
+    background-color: rosybrown;
 
     &__middle-wrapper {
         display: flex;
@@ -41,6 +44,8 @@
 
     /* Responsive resize for tablets */
     @media only screen and (max-width: $tablet) {
+        background-color: rebeccapurple;
+
         &__middle-wrapper {
             display: block;
             height: 80vh;

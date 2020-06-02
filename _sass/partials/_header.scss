@@ -2,19 +2,18 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    height: 10vh;
+    height: 65px;
     position: sticky;
     position: -webkit-sticky; /* Safari */
-    padding-top: 3vh;
-    padding-bottom: 2vh;
+    padding-top: 20px;
     top: 0;
     z-index: 99;
 
     &__elijah {
-        padding-left: 10vh;
+        padding-left: 50px;
     }
     &__menu {
-        padding-right: 10vh;
+        padding-right: 50px;
     }
 
     /* Responsive resize for tablets */
