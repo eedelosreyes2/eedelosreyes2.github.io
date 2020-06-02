@@ -13,10 +13,14 @@
         margin-top: auto;
         padding-left: 50px;
     }
-    &__menu {
+    &__menu-wrapper {
         margin-bottom: auto;
         margin-top: auto;
         padding-right: 50px;
+    }
+    &__menu {
+        height: 25px;
+        width: 25px;
     }
 
     /* Responsive resize for tablets */
@@ -24,8 +28,7 @@
         &__elijah {
             padding-left: 20px;
         }
-        &__menu {
-            // height: 20px;
+        &__menu-wrapper {
             padding-right: 20px;
         }
     }
