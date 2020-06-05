@@ -7,4 +7,9 @@
         display: flex;
         justify-content: space-between;
     }
+
+    /* Responsive resize for phones and tablets */
+    @media only screen and (max-width: $phablet) {
+        padding-top: 12vh;
+    }
 }

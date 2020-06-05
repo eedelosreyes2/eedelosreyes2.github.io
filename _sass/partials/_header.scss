@@ -25,6 +25,12 @@
         margin-top: auto;
         width: 24px;
     }
+    &__menu:active {
+        background-color: brown;
+    }
+    &__menu:focus {
+        outline: burlywood;
+    }
 
     /* Responsive resize for phones and tablets */
     @media only screen and (max-width: $phablet) {
