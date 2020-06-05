@@ -11,9 +11,17 @@
 }
 h1 {
   font-size: $custom-h1-size;
+  /* Responsive resize for phones */
+  @media only screen and (max-width: $phone) {
+    font-size: $custom-h1-size-sm;
+  }
 }
 h2 {
   font-size: $custom-h2-size;
+  /* Responsive resize for phones */
+  @media only screen and (max-width: $phone) {
+    font-size: $custom-h2-size-sm;
+  }
 }
 a:link, a:visited, a:hover, a:active {
   color: black;
@@ -52,7 +60,19 @@ hr {
     display: inline-block;
     margin-top: 13px;
   }
-  
+
+  /* Responsive resize for phones and tablets */
+  @media only screen and (max-width: $phone) {
+    font-size: $custom-h2-size-sm;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &__text {    
+      display: inline-block;
+      margin-top: 12px;
+    }
+  }
 }
 .concept {
   border: 1.5px solid #60B8F8;
