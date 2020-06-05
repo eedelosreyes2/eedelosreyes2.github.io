@@ -60,6 +60,14 @@ hr {
     display: inline-block;
     margin-top: 13px;
   }
+
+  /* Responsive resize for phones */
+  @media only screen and (max-width: $phone) {
+    font-size: $custom-h2-size-sm;
+    height: 45px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
 }
 .concept {
   border: 1.5px solid #60B8F8;
