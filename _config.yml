@@ -5,10 +5,6 @@ url: "https://eedelosreyes2.github.io/"
 resume: "https://eedelosreyes2.github.io/resume.pdf"
 github_username: eedelosreyes2
 
-screen-size:
-  - tablet: 768px 
-  - phone: 600px
-
 sass:
     load_paths:
         - _sass

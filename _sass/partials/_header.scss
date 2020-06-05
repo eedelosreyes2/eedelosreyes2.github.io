@@ -26,8 +26,8 @@
         width: 24px;
     }
 
-    /* Responsive resize for tablets */
-    @media only screen and (max-width: $tablet) {
+    /* Responsive resize for phones and tablets */
+    @media only screen and (max-width: $phablet) {
         &__elijah {
             padding-left: 20px;
         }

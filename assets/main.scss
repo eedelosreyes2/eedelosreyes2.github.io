@@ -5,43 +5,32 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
-@media only screen and (max-width: $tablet) {
-  body {
-    // background-color: lightblue;
-  }
-}
-
-@media only screen and (max-width: $phone) {
-  body {
-    // background-color: red;
-  }
-}
-
 #grey {
   color: rgba(0, 0, 0, 0.75);
   line-height: 35px;
 }
-
 h1 {
   font-size: $custom-h1-size;
 }
-
 h2 {
   font-size: $custom-h2-size;
 }
 a:link, a:visited, a:hover, a:active {
   color: black;
 }
-
 hr {
   background-color: rgba(0, 0, 0, 0.75);
   margin-top: 0px;
 }
-
 .center-col {
   margin-left: auto;
   margin-right: auto;
   width: 65vw;
+
+  /* Responsive resize for phones and tablets */
+  @media only screen and (max-width: $phablet) {
+    width: 90vw;
+  }
 }
 
 .concept {
@@ -51,7 +40,7 @@ hr {
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
+  height: 50px;
   margin-right: 1px;
   margin-top: 12px;
   padding-left: 33px;
@@ -63,7 +52,6 @@ hr {
     margin-top: 13px;
   }
 }
-
 .language {
   background-color: white;
   border: 1.5px solid #9851EB;;
@@ -71,7 +59,7 @@ hr {
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
+  height: 50px;
   margin-right: 1px;
   margin-top: 12px;
   padding-left: 33px;
@@ -83,7 +71,6 @@ hr {
     margin-top: 13px;
   }
 }
-
 .framework {
   background-color: white;
   border: 1.5px solid #000AFF;
@@ -91,7 +78,7 @@ hr {
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
+  height: 50px;
   margin-right: 1px;
   margin-top: 12px;
   padding-left: 33px;
@@ -103,7 +90,6 @@ hr {
     margin-top: 13px;
   }
 }
-
 .tool {
   background-color: white;
   border: 1.5px solid #41D3CD;
@@ -111,7 +97,7 @@ hr {
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
+  height: 50px;
   margin-right: 1px;
   margin-top: 12px;
   padding-left: 33px;
@@ -123,7 +109,6 @@ hr {
     margin-top: 13px;
   }
 }
-
 .soft {
   background-color: white;
   border: 1.5px solid #75EB51;
@@ -131,7 +116,7 @@ hr {
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
+  height: 50px;
   margin-right: 1px;
   margin-top: 12px;
   padding-left: 33px;
@@ -143,7 +128,6 @@ hr {
     margin-top: 13px;
   }
 }
-
 .design {
   background-color: white;
   border: 1.5px solid #FF05F5;
@@ -151,7 +135,7 @@ hr {
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
+  height: 50px;
   margin-right: 1px;
   margin-top: 12px;
   padding-left: 33px;
@@ -163,7 +147,6 @@ hr {
     margin-top: 13px;
   }
 }
-
 .interest {
   background-color: white;
   border: 1.5px solid #FFCE00;
@@ -171,7 +154,7 @@ hr {
   color: rgba(0, 0, 0, 0.75);
   display: inline-block;
   font-size: $custom-h2-size;
-  height: 58px;
+  height: 50px;
   margin-right: 1px;
   margin-top: 12px;
   padding-left: 33px;
