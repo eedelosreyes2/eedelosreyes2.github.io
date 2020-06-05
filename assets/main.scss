@@ -11,17 +11,9 @@
 }
 h1 {
   font-size: $custom-h1-size;
-  /* Responsive resize for phones */
-  @media only screen and (max-width: $phone) {
-    font-size: $custom-h1-size-sm;
-  }
 }
 h2 {
   font-size: $custom-h2-size;
-  /* Responsive resize for phones */
-  @media only screen and (max-width: $phone) {
-    font-size: $custom-h2-size-sm;
-  }
 }
 a:link, a:visited, a:hover, a:active {
   color: black;
@@ -54,20 +46,13 @@ hr {
   margin-top: 12px;
   padding-left: 33px;
   padding-right: 33px;
-  vertical-align: middle;  
+  vertical-align: middle;
 
   &__text {    
     display: inline-block;
     margin-top: 13px;
   }
-
-  /* Responsive resize for phones */
-  @media only screen and (max-width: $phone) {
-    font-size: $custom-h2-size-sm;
-    height: 45px;
-    padding-left: 28px;
-    padding-right: 28px;
-  }
+  
 }
 .concept {
   border: 1.5px solid #60B8F8;

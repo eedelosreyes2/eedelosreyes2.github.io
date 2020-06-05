@@ -53,8 +53,8 @@
         &__avatar-wrapper {
             padding-left: unset;
             padding-right: unset;
-            padding-bottom: 12px;
-            padding-top: 12px;
+            padding-bottom: 5px;
+            padding-top: 5px;
         }
         &__avatar {
             border-radius: 50%;
@@ -77,25 +77,6 @@
         &__intro-text {
             color: rgba(0, 0, 0, 0.75);
             font-size: 16px;
-            line-height: 25px;
-        }
-    }
-    /* Responsive resize for phones and tablets */
-    @media only screen and (max-width: $phone) {
-        &__avatar {
-            border-radius: 50%;
-            display: block;
-            height: 225px;
-            margin: auto;
-            width: 225px;
-        }
-        &__intro-text-big {
-            color: rgba(0, 0, 0, 0.75);
-            font-size: 24px;
-        }
-        &__intro-text {
-            color: rgba(0, 0, 0, 0.75);
-            font-size: 14px;
             line-height: 25px;
         }
     }
