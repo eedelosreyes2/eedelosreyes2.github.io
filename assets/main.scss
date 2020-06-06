@@ -8,6 +8,10 @@
 #grey {
   color: rgba(0, 0, 0, 0.75);
   line-height: 35px;
+  /* Responsive resize for phones */
+  @media only screen and (max-width: $phone) {
+    line-height: 25px;
+  }
 }
 h1 {
   font-size: $custom-h1-size;
