@@ -36,17 +36,54 @@
         }
     }
 }
-.icon-rotates {
-    -moz-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;
+/* Dropdown Button */
+.dropbtn {
+    cursor: pointer;
+    height: 24px;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 24px;
 }
-.icon-rotates.rotate {
-    -moz-transition: rotate(180deg);
-    -webkit-transition: rotate(180deg);
-    transition: rotate(180deg);
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: flex;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-right: 50px;
+    /* Responsive resize for phones and tablets */
+    @media only screen and (max-width: $phablet) {
+        padding-right: 20px;
+    }
 }
-.dropdown.open .icon-rotates {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    margin-right: 50px;
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    /* Responsive resize for phones and tablets */
+    @media only screen and (max-width: $phablet) {
+        margin-right: 20px;
+        // margin-top: ;
+    }
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    background-color: rgba(255, 255, 255, 0.445);
+    display: block;
+    float: right;
+    padding-top: 30px;
+    text-align: right;
+    text-decoration: none;
+    width: 100px;
+    /* Responsive resize for phones and tablets */
+    @media only screen and (max-width: $phablet) {
+        width: 70px;
+    }
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
 }
