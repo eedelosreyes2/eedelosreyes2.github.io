@@ -1,6 +1,7 @@
 .about {
     height: 90vh;
     height: 672px;
+    // padding-top: 15vh;
     width: 100%;
     width: 1280px;
 
@@ -11,7 +12,7 @@
     &__avatar-wrapper {
         padding-left: 125px;
         padding-right: 50px;
-        padding-top: 115px;
+        padding-top: 100px;
     }
     &__avatar {
         border-radius: 50%;
@@ -22,7 +23,7 @@
         height: 100%;
         margin: auto;
         padding-right: 100px;
-        padding-top: 170px;
+        padding-top: 155px;
         width: 750px;
     }
     &__intro-text-big {
