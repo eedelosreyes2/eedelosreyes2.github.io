@@ -5,6 +5,9 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+#main {
+  transition: 0.5s;
+}
 #grey {
   color: rgba(0, 0, 0, 0.75);
   line-height: 35px;
