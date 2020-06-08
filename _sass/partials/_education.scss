@@ -1,6 +1,5 @@
 .education {
-    height: 100%;
-    padding-top: 15vh;
+    padding-top: 120px;
 
     &__go-dons {
         display: flex;
@@ -9,6 +8,6 @@
 
     /* Responsive resize for phones and tablets */
     @media only screen and (max-width: $phablet) {
-        padding-top: 12vh;
+        padding-top: 90px;
     }
 }

@@ -1,20 +1,28 @@
 .resume {
-    height: 100%;
-    padding-top: 15vh;
+    padding-top: 120px;
 
     &__title {
         display: flex;
         justify-content: space-between;
     }
     &__job {
-        padding-bottom: 10vh;
+        padding-bottom: 70px;
     }
     &__skills {
-        padding-top: 15vh;
+        padding-top: 120px;
     }
     &__pdf {
-        padding-bottom: 5vh;
-        padding-top: 20vh;
+        padding-bottom: 20px;
+        padding-top: 150px;
         text-align: center;
+    }
+
+    /* Responsive resize for phones and tablets */
+    @media only screen and (max-width: $phablet) {
+        padding-top: 90px;
+
+        &__pdf {
+            padding-top: 120px;
+        }
     }
 }

@@ -1,12 +1,16 @@
 .projects {
-    height: 100%;
-    padding-top: 15vh;
+    padding-top: 120px;
 
     &__title {
         display: flex;
         justify-content: space-between;
     }
     &__project {
-        padding-bottom: 10vh;
+        padding-bottom: 70px;
+    }
+
+    /* Responsive resize for phones and tablets */
+    @media only screen and (max-width: $phablet) {
+        padding-top: 90px;
     }
 }

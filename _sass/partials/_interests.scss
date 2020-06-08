@@ -1,5 +1,10 @@
 .interests {
-    height: 100%;
-    padding-bottom: 25vh;
-    padding-top: 15vh;
+    padding-bottom: 220px;
+    padding-top: 120px;
+
+    /* Responsive resize for phones and tablets */
+    @media only screen and (max-width: $phablet) {
+        padding-bottom: 190px;
+        padding-top: 90px;
+    }
 }
