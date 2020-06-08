@@ -1,18 +1,16 @@
 .about {
-    height: 90vh;
-//     height: 672px;
-//     // padding-top: 15vh;
-//     width: 100%;
-//     width: 1280px;
+    bottom: 120px;
+    padding-top: 120px;
+    position: relative;
 
     &__middle-wrapper {
         display: flex;
-        height: 80vh;
+        height: 550px;
     }
     &__avatar-wrapper {
         padding-left: 12vw;
         padding-right: 5vw;
-        padding-top: 10vh;
+        padding-top: 80px;
     }
     &__avatar {
         border-radius: 50%;
@@ -23,7 +21,7 @@
         height: 100%;
         margin: auto;
         padding-right: 10vw;
-        padding-top: 12.6vh;
+        padding-top: 115px;
         width: 75vw;
     }
     &__intro-text-big {
