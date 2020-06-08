@@ -19,13 +19,7 @@
         margin-top: auto;
         padding-right: 50px;
     }
-    &__menu {
-        height: 24px;
-        margin-bottom: auto;
-        margin-top: auto;
-        width: 24px;
-    }
-
+    
     /* Responsive resize for phones and tablets */
     @media only screen and (max-width: $phablet) {
         &__elijah {
@@ -37,6 +31,52 @@
     }
 }
 
+/* Menu Button */
+.menu-btn {
+    align-items: center;
+    display: flex;
+    height: 16px;
+    justify-content: center;
+    position: relative;
+    width: 18px;
+cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger {
+    background: black;
+    border-radius: 5px;
+    height: 2px;
+    transition: all .5s ease-in-out;
+    width: 18px;
+}
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    background: black;
+    border-radius: 5px;
+    height: 2px;
+    position: absolute;
+    transition: all .5s ease-in-out;
+    width: 18px;
+}
+.menu-btn__burger::before {
+    transform: translateY(-5px);
+}
+.menu-btn__burger::after {
+    transform: translateY(5px);
+}
+/* Menu Animation */
+.menu-btn.open .menu-btn__burger {
+    background: transparent;
+}
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg);
+}
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg);
+}
+
+/* Navigation Bar */
 .sidenav {
     background-color: white;
     height: 100%;
@@ -54,5 +94,5 @@
     padding-right: 30px;
     padding-top: 10px;
     text-align: right;
-    transition: 0.5s;
+    transition: 0.1s;
 }
